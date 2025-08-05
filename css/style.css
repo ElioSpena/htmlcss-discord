@@ -1,0 +1,170 @@
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/*COMMON*/
+/*LAYOUT*/
+
+.container {
+    margin: 0 auto;
+    max-width: 900px;
+    width: 70%;
+}
+
+.flex {
+    display: flex;
+}
+
+/*UTILITES*/
+.border-dash {
+    border: 2px dashed black;
+}
+
+.minh500 {
+    min-height: 500px;
+}
+
+.minh100 {
+    min-height: 100px;
+}
+
+/*HEADER*/
+
+header {
+    background-color: lightblue;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-nav {
+    background-color: rgb(57, 194, 148);
+    border: 1px dashed black;
+    padding: 6px;
+}
+
+.logo,
+.login {
+    width: 20%;
+}
+
+.login {
+    justify-content: end;
+}
+
+.link {
+    width: 60%;
+    justify-content: space-evenly;
+}
+
+/*HERO CONTENT*/
+.hero-bg {
+    background-color: rgb(75, 136, 193);
+    min-height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-container {
+    margin: 0 auto;
+    max-width: 800px;
+    width: 50%;
+    min-height: 250px;
+    background-color: rgb(136, 99, 171);
+}
+
+/*CONTENT SECTION*/
+.white-bg-section,
+.gray-bg-section {
+    min-height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-element {
+    background-color: blue;
+    width: 60%;
+    min-height: 250px;
+}
+
+.second-element {
+    background-color: rgb(229, 134, 150);
+    width: 40%;
+}
+
+.gray-bg-section {
+    background-color: rgb(164, 164, 164);
+
+}
+
+.bg-reverse {
+    flex-direction: row-reverse;
+}
+
+/*CTA SECTION*/
+
+.cta-section {
+    min-height: 700px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-content {
+    background-color: rgb(102, 215, 102);
+    min-height: 600px;
+
+}
+
+/*FOOTER*/
+/*FOOTER TOP*/
+.bg-dark {
+    background-color: rgb(39, 39, 39);
+    border-bottom: 1px solid white;
+    align-items: center;
+
+}
+
+.column-list {
+    width: 150px;
+    min-width: 50px;
+    min-height: 400px;
+    background-color: pink;
+    border: 1px dashed rgb(255, 255, 255);
+
+}
+
+.grow {
+    flex-grow: 1;
+    background-color: rgb(84, 84, 218);
+}
+
+/*FOOTER BOTTOM*/
+
+.bg-bottom-footer {
+    background-color: pink;
+}
+
+nav.flex {
+    justify-content: space-between;
+    padding: 12px;
+}
+
+button {
+    cursor: pointer;
+}
