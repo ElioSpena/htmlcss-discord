@@ -29,6 +29,7 @@ li {
 
 body {
     font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
 }
 
 .container {
@@ -67,6 +68,10 @@ body {
     color: rgb(255, 255, 255);
 }
 
+.mg-top42 {
+    margin-top: 42px;
+}
+
 /*HEADER*/
 
 header {
@@ -88,7 +93,7 @@ header li {
 .hero-bg {
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    background-repeat: no-repeat;
+
 }
 
 .hero-container {
@@ -107,28 +112,25 @@ header li {
 
 .hero-container>p {
     padding-top: 32px;
+    line-height: 1.5rem;
 }
 
 .button-hero {
     border-radius: 24px;
-    padding: 12px 24px;
+    padding: 12px 20px;
     margin: 24px 12px 100px 24px;
+    cursor: pointer;
 }
-
 
 
 /*CONTENT SECTION*/
-.white-bg-section,
-.gray-bg-section {
-    min-height: 350px;
-    justify-content: center;
-    align-items: center;
-}
 
 .main-element {
-    background-color: blue;
     width: 60%;
+    /*debug*/
     min-height: 250px;
+    background-color: blue;
+
 }
 
 .second-element {
