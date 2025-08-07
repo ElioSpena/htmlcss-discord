@@ -51,6 +51,22 @@ body {
     justify-content: space-between;
 }
 
+.just-center {
+    justify-content: center;
+}
+
+.bg-grayblack {
+    background-color: rgb(55, 55, 55);
+}
+
+.bg-white {
+    background-color: rgb(255, 255, 255);
+}
+
+.text-white {
+    color: rgb(255, 255, 255);
+}
+
 /*HEADER*/
 
 header {
@@ -59,11 +75,11 @@ header {
 }
 
 header li {
-    padding: 12px;
+    padding: 18px;
 }
 
 .login {
-    padding: 12px 24px;
+    padding: 8px 16px;
     background-color: white;
     border-radius: 24px;
 }
@@ -73,20 +89,33 @@ header li {
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
-    max-width: 100%;
-    padding: 24px;
 }
-
-
 
 .hero-container {
-    padding-top: 24px;
     margin: 0 auto;
-    max-width: 800px;
-    width: 50%;
-    min-height: 250px;
-    background-color: rgb(136, 99, 171);
+    width: 600px;
+    max-width: 80%;
+    text-align: center;
+    color: white;
+
 }
+
+.hero-container>h1 {
+    font-size: 38px;
+    padding-top: 100px;
+}
+
+.hero-container>p {
+    padding-top: 32px;
+}
+
+.button-hero {
+    border-radius: 24px;
+    padding: 12px 24px;
+    margin: 24px 12px 100px 24px;
+}
+
+
 
 /*CONTENT SECTION*/
 .white-bg-section,
