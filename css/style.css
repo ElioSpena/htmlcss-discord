@@ -68,8 +68,8 @@ body {
     color: rgb(255, 255, 255);
 }
 
-.mg-top42 {
-    margin-top: 42px;
+.pd-top55 {
+    padding-top: 55px;
 }
 
 /*HEADER*/
@@ -125,27 +125,29 @@ header li {
 
 /*CONTENT SECTION*/
 
-.main-element {
+.img-element {
     width: 60%;
-    /*debug*/
-    min-height: 250px;
-    background-color: blue;
-
 }
 
-.second-element {
-    background-color: rgb(229, 134, 150);
+.text-element {
     width: 40%;
-}
-
-.gray-bg-section {
-    background-color: rgb(164, 164, 164);
-
 }
 
 .bg-reverse {
     flex-direction: row-reverse;
 }
+
+.text-element>h2 {
+    font-size: 38px;
+    padding-top: 42px;
+}
+
+.text-element>p {
+    line-height: 1.5rem;
+    padding-top: 24px;
+}
+
+
 
 /*CTA SECTION*/
 
