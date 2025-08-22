@@ -68,6 +68,10 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
+.bg-blue {
+    background-color: rgb(131, 144, 244);
+}
+
 .text-white {
     color: rgb(255, 255, 255);
 }
@@ -83,12 +87,21 @@ body {
 .button {
     border-radius: 24px;
     padding: 12px 20px;
-    margin: 24px 12px 100px 24px;
     cursor: pointer;
+}
+
+.margin-button {
+    margin: 24px 12px 100px 24px;
 }
 
 .border-bottom-white {
     border-bottom: 1px solid white;
+}
+
+.img-size {
+    width: 24px;
+    margin-right: 8px;
+    cursor: pointer;
 }
 
 /*HEADER*/
@@ -184,7 +197,6 @@ header li {
 }
 
 .cta-bottom>a {
-    background-color: rgb(131, 144, 244);
     display: inline-block;
 }
 
@@ -228,6 +240,7 @@ header li {
 
 }
 
+
 .column-list {
     padding-bottom: 24px;
     padding-left: 50px;
@@ -246,6 +259,7 @@ footer h4 {
 footer li {
     color: white;
     font-size: 12px;
+    cursor: pointer;
 }
 
 footer ul {
@@ -259,6 +273,12 @@ nav.flex {
     padding: 12px;
 }
 
-button {
-    cursor: pointer;
+nav.flex img {
+    width: 80px;
+}
+
+nav.flex a {
+    font-size: 12px;
+    padding: 8px 16px;
+    border-radius: 24px;
 }
