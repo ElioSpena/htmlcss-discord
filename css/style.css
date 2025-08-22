@@ -34,8 +34,8 @@ body {
 
 .container {
     margin: 0 auto;
-    max-width: 1500px;
-    width: 90%;
+    max-width: 1000px;
+    width: 80%;
 }
 
 /*UTILITES*/
@@ -56,6 +56,10 @@ body {
     justify-content: center;
 }
 
+.column {
+    flex-direction: column;
+}
+
 .bg-grayblack {
     background-color: rgb(55, 55, 55);
 }
@@ -72,10 +76,22 @@ body {
     padding-top: 55px;
 }
 
+
+.button {
+    border-radius: 24px;
+    padding: 12px 20px;
+    margin: 24px 12px 100px 24px;
+    cursor: pointer;
+}
+
+.border-bottom-white {
+    border-bottom: 1px solid white;
+}
+
 /*HEADER*/
 
 header {
-    background-color: rgb(72, 88, 237);
+    background-color: rgb(60, 77, 233);
     height: 80px;
 }
 
@@ -93,6 +109,7 @@ header li {
 .hero-bg {
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    background-position: top;
 
 }
 
@@ -115,12 +132,6 @@ header li {
     line-height: 1.5rem;
 }
 
-.button-hero {
-    border-radius: 24px;
-    padding: 12px 20px;
-    margin: 24px 12px 100px 24px;
-    cursor: pointer;
-}
 
 
 /*CONTENT SECTION*/
@@ -150,47 +161,73 @@ header li {
 
 
 /*CTA SECTION*/
-
-.cta-section {
-    min-height: 700px;
-    justify-content: center;
-    align-items: center;
+.cta-container {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
 }
 
-.cta-content {
-    background-color: rgb(102, 215, 102);
-    min-height: 600px;
-
+.cta-top p {
+    padding-top: 24px;
+    width: 85%;
 }
+
+.cta-top h2 {
+    font-size: 42px;
+}
+
+.cta-bottom {
+    text-align: center;
+}
+
+.cta-bottom>a {
+    background-color: rgb(131, 144, 244);
+    display: inline-block;
+}
+
+.cta-bottom h3 {
+    margin: 0 auto;
+    padding: 26px;
+    max-width: 400px;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
 
 /*FOOTER*/
 /*FOOTER TOP*/
-.bg-dark {
-    background-color: rgb(39, 39, 39);
-    border-bottom: 1px solid white;
-    align-items: center;
 
+.column-lang {
+    width: 240px;
+    max-width: 60%;
 }
 
 .column-list {
-    width: 150px;
-    min-width: 50px;
-    min-height: 400px;
-    background-color: pink;
-    border: 1px dashed rgb(255, 255, 255);
-
+    padding-bottom: 24px;
+    width: 160px;
 }
 
-.grow {
-    flex-grow: 1;
-    background-color: rgb(84, 84, 218);
+footer h4,
+footer h5 {
+    color: rgb(131, 144, 244);
+}
+
+footer h4 {
+    font-size: 24px;
+}
+
+footer li {
+    color: white;
+    font-size: 12px;
+}
+
+footer ul {
+    line-height: 34px;
 }
 
 /*FOOTER BOTTOM*/
-
-.bg-bottom-footer {
-    background-color: pink;
-}
 
 nav.flex {
     justify-content: space-between;
