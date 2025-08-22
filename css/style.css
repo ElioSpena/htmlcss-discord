@@ -76,6 +76,9 @@ body {
     padding-top: 55px;
 }
 
+.pd-top12 {
+    padding-top: 12px;
+}
 
 .button {
     border-radius: 24px;
@@ -200,13 +203,35 @@ header li {
 /*FOOTER TOP*/
 
 .column-lang {
-    width: 240px;
-    max-width: 60%;
+
+    width: 60%;
+}
+
+.column-lang p {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    display: inline;
+
+}
+
+.img-lang {
+    width: 20px;
+    vertical-align: middle;
+
+}
+
+.down-arrow {
+    width: 16px;
+    vertical-align: middle;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+
 }
 
 .column-list {
     padding-bottom: 24px;
-    width: 160px;
+    padding-left: 50px;
+    width: 40%;
 }
 
 footer h4,
